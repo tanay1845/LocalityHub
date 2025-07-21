@@ -54,8 +54,8 @@ const Profile = () => {
   <div className='min-w-[20%] bg-blue-200'>
 
     <Link to="/create-new-service"
-    className=''>
-      Service
+    className='px-3 bg-violet-800 hover:bg-violet-500 flex justify-center items-center text-white font-bold h-12 rounded-lg m-2'>
+      Create Service
     </Link>
   </div>
     <div className="min-h-screen min-w-[80%] bg-gradient-to-br from-blue-50 to-indigo-100 py-12 px-4 sm:px-6 lg:px-8">
