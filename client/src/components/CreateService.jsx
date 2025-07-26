@@ -34,7 +34,7 @@ const CreateService = () => {
     );
 
     try {
-      const res = await axios.post('http://localhost:3000/api/services/create', serviceData, {
+      const res = await axios.post('http://localhost:3000/user/api/services/create', serviceData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
